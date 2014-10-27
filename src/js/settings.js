@@ -21,6 +21,7 @@ define('summernote/settings', function () {
       disableLinkTarget: false,     // hide link Target Checkbox
       disableDragAndDrop: false,    // disable drag and drop event
       disableResizeEditor: false,   // disable resizing editor
+      checkFontInstalled: true,     // toggle checking if font is installed - useful for web fonts as they will be loaded on request 
 
       codemirror: {                 // codemirror options
         mode: 'text/html',
